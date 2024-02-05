@@ -3,18 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <title>My Resume</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <img
+      id="profile_pic"
       src="Assets/images/Piyush Jha.jpg"
       alt="image of Piyush Jha"
       width="100"
       height="100"
     />
-    <h1>Piyush Jha</h1>
+    <div><h1>Piyush Jha</h1></div>
+
     <p>
-      <a target="_blank" href="piyush.x24@gmail.com">E-Mail</a> <b>|</b>
-      <a target="_blank" href="https://twitter.com/IamCopser">Twitter</a>
+      <a class="Header_Button" target="_blank" href="piyush.x24@gmail.com">E-Mail</a> <b>|</b>
+      <a class="Header_Button" target="_blank" href="https://twitter.com/IamCopser">Twitter</a>
     </p>
     <hr />
 
@@ -125,37 +128,35 @@
         as we are yet to learn CSS.But once we are aware of the 
         CSS concepts, we'll come back and switch to the tabular 
         representation instead of the list view-->
-
-    <!--<table>
-      <tr>
-        <th>Degree/Qualification</th>
-        <th>University/Board</th>
-        <th>Percentage/CGPA</th>
-        <th>Graduation/Year of Passing</th>
-      </tr>
-      <tr>
-        <td>Bachelors of Technology</td>
-        <td>GGSIPU, Delhi</td>
-        <td>7.79</td>
-        <td>2017-2021</td>
-      </tr>
-      <tr>
-        <td>Senior Secondary Education</td>
-        <td>CBSE</td>
-        <td>64.40%</td>
-        <td>2015-2017</td>
-      </tr>
-      <tr>
-        <td>Secondary Education</td>
-        <td>CBSE</td>
-        <td>8.20</td>
-        <td>2014-2015</td>
-      </tr>
-    </table>-->
-
-    <!--Below section is the Education in List wise manner-->
-
-    <ul>
+    <div class="table">
+      <table>
+        <tr>
+          <th>Degree/Qualification</th>
+          <th>University/Board</th>
+          <th>Percentage/CGPA</th>
+          <th>Graduation/Year of Passing</th>
+        </tr>
+        <tr>
+          <td>Bachelors of Technology</td>
+          <td>GGSIPU, Delhi</td>
+          <td>7.79</td>
+          <td>2017-2021</td>
+        </tr>
+        <tr>
+          <td>Senior Secondary Education</td>
+          <td>CBSE</td>
+          <td>64.40%</td>
+          <td>2015-2017</td>
+        </tr>
+        <tr>
+          <td>Secondary Education</td>
+          <td>CBSE</td>
+          <td>8.20</td>
+          <td>2014-2015</td>
+        </tr>
+      </table>
+    </div>
+    <!--<ul>
       <li>
         <h3>Bachelors of Technology</h3>
         <ul>
@@ -180,7 +181,9 @@
           <li>CGPA: 8.20</li>
         </ul>
       </li>
-    </ul>
+    </ul>-->
+
+    <!--Below section is the Education in List wise manner-->
 
     <!--Educaion Section ends here-->
 
@@ -193,54 +196,55 @@
         appropriate bifurcation along with a concise presentation-->
 
     <h2>Skils</h2>
-
-    <table>
-      <tr>
-        <th>Databases</th>
-        <th>NoSQL Technologies</th>
-        <th>Programming Languages</th>
-        <th>Operating System</th>
-        <th>Cloud Computing</th>
-        <th>CI/CD</th>
-        <th>Soft Skills</th>
-      </tr>
-      <tr>
-        <td>SQL Server</td>
-        <td>DynamoDB</td>
-        <td>Java</td>
-        <td>Windows</td>
-        <td>AWS Cloudwatch</td>
-        <td>Jenkins</td>
-        <td>Troubleshooting</td>
-      </tr>
-      <tr>
-        <td>PostgreSQL</td>
-        <td>MongoDB</td>
-        <td>JavaScript</td>
-        <td>Linux</td>
-        <td>AWS S3</td>
-        <td>GitLab</td>
-        <td>Customer services</td>
-      </tr>
-      <tr>
-        <td>MySQL</td>
-        <td></td>
-        <td>HTML-CSS</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Oracle</td>
-        <td></td>
-        <td>SQL</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
+    <div class="table">
+      <table>
+        <tr>
+          <th>Databases</th>
+          <th>NoSQL Technologies</th>
+          <th>Programming Languages</th>
+          <th>Operating System</th>
+          <th>Cloud Computing</th>
+          <th>CI/CD</th>
+          <th>Soft Skills</th>
+        </tr>
+        <tr>
+          <td>SQL Server</td>
+          <td>DynamoDB</td>
+          <td>Java</td>
+          <td>Windows</td>
+          <td>AWS Cloudwatch</td>
+          <td>Jenkins</td>
+          <td>Troubleshooting</td>
+        </tr>
+        <tr>
+          <td>PostgreSQL</td>
+          <td>MongoDB</td>
+          <td>JavaScript</td>
+          <td>Linux</td>
+          <td>AWS S3</td>
+          <td>GitLab</td>
+          <td>Customer services</td>
+        </tr>
+        <tr>
+          <td>MySQL</td>
+          <td></td>
+          <td>HTML-CSS</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Oracle</td>
+          <td></td>
+          <td>SQL</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
 
     <!--Skills section ends here-->
 

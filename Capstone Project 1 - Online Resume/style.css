@@ -1,0 +1,27 @@
+.table{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: justify;
+    margin: 10px;
+    
+}
+
+p{
+    text-align: justify;
+}
+
+
+#profile_pic{
+
+    border: 1px solid black;
+    margin: 0px;
+}
+
+.Header_Button{
+    border: 1px solid gray;
+    font-weight: bold;
+    margin: 2px;
+    padding: 3px;
+    color: purple;
+    text-align: center;
+}
