@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+
+.whole {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+  text-align: center;
+}
+#daenerys {
+  border: 5px solid white;
+  width: 100%;
+}
+#first {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
