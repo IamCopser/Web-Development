@@ -1,0 +1,32 @@
+*{
+    background-color: black;
+}
+
+.whole{
+    text-align: center;
+    padding: 5% 20%;
+}
+
+#daenerys{
+    border: 5px solid white;
+    width: 90%;
+    height: 80%;
+}
+
+#first{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 350%;
+    margin: 2%;
+}
+
+#second{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:normal;
+    font-size: 120%;
+    margin: 0px;
+}
